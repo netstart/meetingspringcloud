@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cotacao
+  cloud:
+    config:
+      uri: http://localhost:7070
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 9091
